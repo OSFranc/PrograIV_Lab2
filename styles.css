@@ -1,15 +1,30 @@
-#divSeleccion {
-    background-color: rgb(57, 53, 53);
+body {
+    background-color: #3AAFA9;
+}
+
+#header {
+    color: #DEF2F1;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+#divSeleccion {
+    background-color: #2B7A78;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
 }
 
 #divSeleccion p{
+    color: #DEF2F1;
  font-size: large;
  font-weight: bold;
  display: flex;
  justify-content: center;
- background-color: rgb(159, 171, 167);
 }
 
 
@@ -26,6 +41,8 @@
     height: 200px;
     width: 250px;
     border-radius: 10px;
+    border: solid;
+    border-color: #17252A;
 }
 
 #SubPanel2{
@@ -38,25 +55,47 @@
 }
 
 #SubPanel2 img{
-    padding: 20px;
     height: 200px;
     width: 250px;
     border-radius: 10px;
+    border: solid;
+    border-color: #17252A;
 }
 
 #explanationDiv {
-    background-color: rgb(148, 138, 138);
-    border-radius: 10px;
+    background-color: #DEF2F1;
     display: flex;
     justify-content: space-around;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 200px;
     padding-right: 200px;
+    gap: 25px;
+    font-size: 25px;
 }
 
 #explanationDiv img{
     height: 300px;
     width: 350px;
     border-radius: 10px;
+    border: solid;
+    border-color: #17252A;
 }
+
+#divSeleccion button{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: #f0f0f0;
+    border: 0;
+    color: #242424;
+    border-radius: 0.5em;
+    font-size: 1.35rem;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+    

@@ -8,13 +8,13 @@
     <script src="code.js"></script>
 </head>
 <body>
-    <div>
-        <h1>Bienvenidos a mi Sitio Web</h1>
+    <div id="header">
+        <h1 style="color: #17252A;">Bienvenidos a mi Sitio Web</h1>
         <h2>Oscar Rene Palacios Franco</h2>
-        <h3>Acerca de mi</h3>
+        <h3 style="font-weight: bolder;">Un poco acerca de mi</h3>
     </div>
     <div id="divSeleccion">
-        <p id="pruebaTxt">Selecciona una imagen</p>
+        <p id="pruebaTxt">Selecciona una imagen para saber mas!</p>
         <div id="SubPanel1">
             <img id="imgHobby" onclick="ObtenerOpcion('imgHobby')" src="imagenes/hobbyFavorito.png">
             <img id="imgComidaFav" onclick="ObtenerOpcion('imgComidaFav')" src="imagenes/comidaFav.png">
@@ -25,14 +25,18 @@
             <img id="imgArtistaFav" onclick="ObtenerOpcion('imgArtistaFav')" src="imagenes/artistaFav.png">
             <img id="imgPaisFav" onclick="ObtenerOpcion('imgPaisFav')" src="imagenes/paisFav.png">
         </div>
+        <button onclick="ClicBtnAboutMe()">Clic acá para saber más acerca de mi!</button>
     </div>
 
     <div id="explanationDiv">
         <div id="textExplanationDiv">
-            <p id="txtExplicacion"> - </p>
+            <p id="txtExplicacion"> Soy estudiante de Ingeniería en Sistemas con una gran pasión por la tecnología y el análisis
+                de datos. Actualmente, estoy completando la certificación Google Data Analytics
+                Professional Certificate, lo que ha fortalecido mis habilidades en SQL, Python y visualización
+                de datos. </p>
         </div>
         <div id="imgSelectedDiv">
-            <img id="imgSelected" src="imagenes/placeholder.png">
+            <img id="imgSelected" src="imagenes/Oscar.png">
         </div>
     </div>
 </body>
