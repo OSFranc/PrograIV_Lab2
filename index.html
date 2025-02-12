@@ -16,14 +16,14 @@
     <div id="divSeleccion">
         <p id="pruebaTxt">Selecciona una imagen para saber mas!</p>
         <div id="SubPanel1">
-            <img id="imgHobby" onclick="ObtenerOpcion('imgHobby')" src="imagenes/hobbyFavorito.png">
-            <img id="imgComidaFav" onclick="ObtenerOpcion('imgComidaFav')" src="imagenes/comidaFav.png">
-            <img id="imgShowFav" onclick="ObtenerOpcion('imgShowFav')" src="imagenes/showFav.png">
+            <img id="imgHobby" onclick="ObtenerOpcion('imgHobby')" onmouseover="MouseHover('imgHobby')" onmouseout="MouseNotHover('imgHobby')" src="imagenes/hobbyFavorito.png">
+            <img id="imgComidaFav" onclick="ObtenerOpcion('imgComidaFav')" onmouseover="MouseHover('imgComidaFav')" onmouseout="MouseNotHover('imgComidaFav')" src="imagenes/comidaFav.png">
+            <img id="imgShowFav" onclick="ObtenerOpcion('imgShowFav')" onmouseover="MouseHover('imgShowFav')" onmouseout="MouseNotHover('imgShowFav')" src="imagenes/showFav.png">
         </div>
         <div id="SubPanel2">
-            <img id="imgColorFav" onclick="ObtenerOpcion('imgColorFav')" src="imagenes/colorFav.png">
-            <img id="imgArtistaFav" onclick="ObtenerOpcion('imgArtistaFav')" src="imagenes/artistaFav.png">
-            <img id="imgPaisFav" onclick="ObtenerOpcion('imgPaisFav')" src="imagenes/paisFav.png">
+            <img id="imgColorFav" onclick="ObtenerOpcion('imgColorFav')" onmouseover="MouseHover('imgColorFav')" onmouseout="MouseNotHover('imgColorFav')" src="imagenes/colorFav.png">
+            <img id="imgArtistaFav" onclick="ObtenerOpcion('imgArtistaFav')" onmouseover="MouseHover('imgArtistaFav')" onmouseout="MouseNotHover('imgArtistaFav')" src="imagenes/artistaFav.png">
+            <img id="imgPaisFav" onclick="ObtenerOpcion('imgPaisFav')" onmouseover="MouseHover('imgPaisFav')" onmouseout="MouseNotHover('imgPaisFav')" src="imagenes/paisFav.png">
         </div>
         <button onclick="ClicBtnAboutMe()">Clic acá para saber más acerca de mi!</button>
     </div>
@@ -34,10 +34,12 @@
                 de datos. Actualmente, estoy completando la certificación Google Data Analytics
                 Professional Certificate, lo que ha fortalecido mis habilidades en SQL, Python y visualización
                 de datos. </p>
+                <button id="btnEnlaceExterno" onclick="ClickBtnEnlace()">Mi portafolio de GitHub</button>
         </div>
         <div id="imgSelectedDiv">
             <img id="imgSelected" src="imagenes/Oscar.png">
         </div>
     </div>
+            
 </body>
 </html>

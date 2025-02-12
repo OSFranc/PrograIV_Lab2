@@ -43,6 +43,7 @@ body {
     border-radius: 10px;
     border: solid;
     border-color: #17252A;
+    cursor: pointer
 }
 
 #SubPanel2{
@@ -60,6 +61,7 @@ body {
     border-radius: 10px;
     border: solid;
     border-color: #17252A;
+    cursor: pointer
 }
 
 #explanationDiv {
@@ -80,6 +82,7 @@ body {
     border-radius: 10px;
     border: solid;
     border-color: #17252A;
+    
 }
 
 #divSeleccion button{
@@ -98,4 +101,25 @@ body {
     font-weight: 600;
     cursor: pointer;
   }
+
+#btnEnlaceExterno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #17252A;
+    border: 0;
+    color: #DEF2F1;
+    border-radius: 0.5em;
+    font-size: 1.35rem;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.estilo-hover {
+        transform: scale(1.2);
+        filter: brightness(1.2);
+        transition: transform 0.3s ease-in-out;
+    }
+
     
