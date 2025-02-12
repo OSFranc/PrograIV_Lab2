@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="code.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Bienvenidos a mi Sitio Web</h1>
+        <h2>Oscar Rene Palacios Franco</h2>
+        <h3>Acerca de mi</h3>
+    </div>
+    <div id="divSeleccion">
+        <p id="pruebaTxt">Selecciona una imagen</p>
+        <div id="SubPanel1">
+            <img id="imgHobby" onclick="ObtenerOpcion('imgHobby')" src="imagenes/hobbyFavorito.png">
+            <img id="imgComidaFav" onclick="ObtenerOpcion('imgComidaFav')" src="imagenes/comidaFav.png">
+            <img id="imgShowFav" onclick="ObtenerOpcion('imgShowFav')" src="imagenes/showFav.png">
+        </div>
+        <div id="SubPanel2">
+            <img id="imgColorFav" onclick="ObtenerOpcion('imgColorFav')" src="imagenes/colorFav.png">
+            <img id="imgArtistaFav" onclick="ObtenerOpcion('imgArtistaFav')" src="imagenes/artistaFav.png">
+            <img id="imgPaisFav" onclick="ObtenerOpcion('imgPaisFav')" src="imagenes/paisFav.png">
+        </div>
+    </div>
+
+    <div id="explanationDiv">
+        <div id="textExplanationDiv">
+            <p id="txtExplicacion"> - </p>
+        </div>
+        <div id="imgSelectedDiv">
+            <img id="imgSelected" src="imagenes/placeholder.png">
+        </div>
+    </div>
+</body>
+</html>
